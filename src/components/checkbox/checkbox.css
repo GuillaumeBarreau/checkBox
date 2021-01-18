@@ -1,0 +1,14 @@
+.checkBox {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    /* appearance: none;
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid red;
+    outline: none; */
+}
+
+.checkBox:checked { /* csslint allow: adjoining-classes */
+  background-color: #e03872;
+}
